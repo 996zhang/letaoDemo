@@ -1,0 +1,75 @@
+html {
+  font-size: 26.66667vw;
+}
+body {
+  font-size: 0.14rem;
+  line-height: 0.14rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+#header {
+  background-color: #006699;
+  height: 0.45rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .left {
+  width: 0.45rem;
+  height: 0.45rem;
+}
+#header .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.45rem;
+}
+#header .center h4 {
+  flex: 1;
+  color: #fff;
+  font-size: 0.18rem;
+  font-weight: normal;
+  line-height: 0.18rem;
+}
+#header .right a {
+  width: 0.45rem;
+  height: 0.45rem;
+  color: #fff;
+  text-decoration: none;
+  line-height: 0.45rem;
+  text-align: center;
+}
+#footer {
+  height: 0.45rem;
+  background: #006699;
+}
+#footer .mui-row {
+  height: 100%;
+}
+#footer .mui-row > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer .mui-row > div a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.14rem;
+}
+#footer .mui-row > div a span {
+  padding-top: 0.05rem;
+}
